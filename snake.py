@@ -8,7 +8,6 @@ class Snake:
         self.segments = []
         self.create_snake()
         self.head = self.segments[0]
-       # self.head.shape("smaller")
 
     def create_snake(self):
         for p in STARTING_POSITIONS:

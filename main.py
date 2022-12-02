@@ -7,8 +7,6 @@ from tkinter import PhotoImage
 
 scoreboard = Scoreboard()
 screen = Screen()
-#smaller= PhotoImage(file="alex_3.gif").subsample(3, 3)
-#screen.addshape("smaller", Shape("image", smaller))
 screen.setup(600, 600)
 screen.bgcolor("black")
 screen.title("My snake game")
