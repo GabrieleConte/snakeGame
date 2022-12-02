@@ -35,9 +35,12 @@ def check():
 while game_on:
     screen.update()
     sleep(0.1)
-    game_on = snake.move()
+    k=snake.move()
     check()
+    if not k:
+        scoreboard.reset()
+        snake.reset()
 
-scoreboard.gameover()
+
 
 screen.exitonclick()
